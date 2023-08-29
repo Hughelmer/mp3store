@@ -10,7 +10,7 @@
         <div class="mp3-list">
             <?php
             // Replace with your database connection code
-            $conn = new mysqli("localhost", "username", "password", "database");
+            $conn = new mysqli("localhost", "root", "", "mp3shop_db");
             $sql = "SELECT * FROM mp3s";
             $result = $conn->query($sql);
 
